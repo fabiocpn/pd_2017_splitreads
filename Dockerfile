@@ -11,11 +11,11 @@ RUN pip install python-Levenshtein numpy scipy
 
 RUN mkdir -p /src; \
  cd /src; \
- wget "https://www.dropbox.com/s/tydhm3ypa7jmbss/scour.py?dl=1" -O scour.py 
+ wget "https://raw.githubusercontent.com/fabiocpn/pd_2017_splitreads/master/scour.py" -O scour.py 
 
 RUN mkdir -p /src; \
  cd /src; \
- wget "https://www.dropbox.com/s/o4t5ss6wa37sxrq/split.sh?dl=1" -O split.sh; \
+ wget "https://raw.githubusercontent.com/fabiocpn/pd_2017_splitreads/master/split.sh" -O split.sh; \
  chmod +x /src/split.sh
 
 
